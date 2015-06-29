@@ -32,3 +32,4 @@ Supreme Manga uses a number of open source projects to work properly:
 - [ ] Fix design elements
 - [ ] Manga List (encode and decode from JSON)
 - [ ] Automated 'Top Manga' and 'Recent Updates'
+- [ ] User recommended manga based on their recent searches'
