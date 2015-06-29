@@ -10,7 +10,7 @@ Consequently, Supreme Manga loads a responsive web interface using Bootstrap to 
 ### Version
 3.0.0
 
-### Tech
+### Resources
 
 Supreme Manga uses a number of open source projects to work properly:
 
@@ -22,3 +22,13 @@ Supreme Manga uses a number of open source projects to work properly:
 
 - [Nasr Mohamed](https://github.com/fukouda)
 - [Safery Hossain](https://github.com/Safery)
+
+### To-do List
+
+- [x] API Call and Return
+- [x] Homepage
+- [x] Search Results Page
+- [x] Reader page
+- [ ] Fix design elements
+- [ ] Manga List (encode and decode from JSON)
+- [ ] Automated 'Top Manga' and 'Recent Updates'
