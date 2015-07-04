@@ -8,7 +8,7 @@ A manga-reading site built in PHP. Utilises the 'mangascrape' public API to pull
 Consequently, Supreme Manga loads a responsive web interface using Bootstrap to present the data from the API. This lets it function like a manga reader.
 
 ### Version
-3.0.0
+0.0.1
 
 ### Resources
 
