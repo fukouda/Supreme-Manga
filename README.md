@@ -1,6 +1,6 @@
 # Supreme Manga
 
-![alt text](https://github.com/fukouda/Supreme-Manga/blob/master/imgs/cover/3.png "Manga Cover")
+![alt text](https://github.com/fukouda/Supreme-Manga/blob/master/v0.0.2/imgs/cover/1.png "Manga Cover")
 
 ### Summary
 A manga-reading site built in PHP. Utilises the 'mangascrape' public API to pull data from http://mangafox.me, http://mangareader.net, and http://mangastream.com.
