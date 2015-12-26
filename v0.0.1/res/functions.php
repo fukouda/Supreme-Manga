@@ -34,7 +34,7 @@ function updateMangaList($siteId) {
 
 	$response = Unirest\Request::get($url,
 	  array(
-	    "X-Mashape-Key" => "S4X6YXGRxxmshLDxygnESvTmQ3kAp1DSsDDjsnx14NHnev0ocV",
+	    "X-Mashape-Key" => "key",
 	    "Accept" => "text/plain"
 	  )
 	);
@@ -68,7 +68,7 @@ function mangaSearch($siteId, $query) {
 
 	$response = Unirest\Request::get($url,
 	  array(
-	    "X-Mashape-Key" => "S4X6YXGRxxmshLDxygnESvTmQ3kAp1DSsDDjsnx14NHnev0ocV",
+	    "X-Mashape-Key" => "key",
 	    "Accept" => "text/plain"
 	  )
 	);
@@ -90,7 +90,7 @@ function mangaInfo($siteId, $mangaId){
 
 	$response = Unirest\Request::get($url,
 	  array(
-	    "X-Mashape-Key" => "S4X6YXGRxxmshLDxygnESvTmQ3kAp1DSsDDjsnx14NHnev0ocV",
+	    "X-Mashape-Key" => "key",
 	    "Accept" => "text/plain"
 	  )
 	);
@@ -164,7 +164,7 @@ function getChapter($siteId, $mangaId, $chapterId) {
 	
 	$response = Unirest\Request::get($url,
 	  array(
-	    "X-Mashape-Key" => "S4X6YXGRxxmshLDxygnESvTmQ3kAp1DSsDDjsnx14NHnev0ocV",
+	    "X-Mashape-Key" => "key",
 	    "Accept" => "text/plain"
 	  )
 	);
