@@ -8,7 +8,7 @@ function getMangaSiteId() {
 
 	$response = Unirest\Request::get($url,
 	  array(
-	    "X-Mashape-Key" => "S4X6YXGRxxmshLDxygnESvTmQ3kAp1DSsDDjsnx14NHnev0ocV",
+	    "X-Mashape-Key" => "key",
 	    "Accept" => "text/plain"
 	  )
 	);
