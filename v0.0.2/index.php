@@ -13,16 +13,6 @@
 <script src="scripts/jquery-2.1.4.min.js"></script>
 <script src="scripts/bootstrap.min.js"></script>
 
-<script>
-
-	/*$(document).ready(function() {
-			$.(function() {
-
-			});
-		  }); */
-</script>
-
-
 
 <?php require("res/menu.php");?>
 <body>
@@ -47,7 +37,6 @@
        </div>
      </div>
      <div class="col-sm-3">
-      <!-- right -->
       <h3>Most Read Manga</h3>
       <hr style="height: 2px; background-color: #efefef;">
       
@@ -56,13 +45,10 @@
         <li><p>TEST</p> </li>
         <li><p>TEST</p> </li>
         <li><p>TEST</p> </li>
-        <!--<li><a href="javascript:;"><i class="glyphicon glyphicon-stats"></i> Activity Logs</a></li>
-        <li><a href="javascript:;"><i class="glyphicon glyphicon-cog"></i> Settings</a></li>
-        <li><a href="javascript:;"><i class=""></i> </a></li>-->
       </ul>
       
       
-    </div><!-- /span-3 -->
+    </div>
   </div>
 </div> 
 </bodY>
