@@ -17,20 +17,6 @@ $manga = mangaInfo($_GET['siteId'], $_GET['mangaId']);
 <script src="../scripts/jquery-2.1.4.min.js"></script>
 <script src="../scripts/bootstrap.min.js"></script>
 
-<script>
-
-	/*$(document).ready(function() {
-			$.(function() {
-
-			});
-		  }); */
-</script>
-
-<style>
-
-
-</style>
-
 <?php require("../res/menu.php");?>
 <body>
 <div class="container">
@@ -118,7 +104,17 @@ $manga = mangaInfo($_GET['siteId'], $_GET['mangaId']);
 
 		<tbody>
 
-		<?php $i = 1; foreach($manga['chapters'] as $chapter){ if(isset($chapter)){ $title = $chapter; }else{ $title= 'No Title Available'; } echo "<tr><td align='center'><a href='read-manga?page=1&siteId=" . $_GET['siteId'] . "&mangaId=" . $_GET['mangaId'] . "&chapterId=" . $i . "'>" . $i . "</a></td><td style='padding-left: 10%;'><a href='read-manga?page=1&siteId=" . $_GET['siteId'] . "&mangaId=" . $_GET['mangaId'] . "&chapterId=" . $i . "'>" . $title . "</a></tr>"; $i++; }?>
+		<?php 
+		$i = 1; 
+		foreach($manga['chapters'] as $chapter){
+			if(isset($chapter)){ 
+				$title = $chapter; 
+			} else { 
+				$title= 'No Title Available';
+			} 
+			echo "<tr><td align='center'><a href='read-manga?page=1&siteId=" . $_GET['siteId'] . "&mangaId=" . $_GET['mangaId'] . "&chapterId=" . $i . "'>" . $i . "</a></td><td style='padding-left: 10%;'><a href='read-manga?page=1&siteId=" . $_GET['siteId'] . "&mangaId=" . $_GET['mangaId'] . "&chapterId=" . $i . "'>" . $title . "</a></tr>"; 
+			$i++;
+		}?>
 
 		</tbody>
 	     </table>
@@ -126,7 +122,6 @@ $manga = mangaInfo($_GET['siteId'], $_GET['mangaId']);
        </div>
      </div>
      <div class="col-sm-3">
-      <!-- right -->
       <h3>Most Read Manga</h3>
       <hr style="height: 1px; background-color: #efefef;">
       
@@ -135,13 +130,10 @@ $manga = mangaInfo($_GET['siteId'], $_GET['mangaId']);
         <li><p>TEST</p> </li>
         <li><p>TEST</p> </li>
         <li><p>TEST</p> </li>
-        <!--<li><a href="javascript:;"><i class="glyphicon glyphicon-stats"></i> Activity Logs</a></li>
-        <li><a href="javascript:;"><i class="glyphicon glyphicon-cog"></i> Settings</a></li>
-        <li><a href="javascript:;"><i class=""></i> </a></li>-->
       </ul>
       
       
-    </div><!-- /span-3 -->
+    </div>
   </div>
 </div> 
 </body>
