@@ -8,7 +8,7 @@ function getMangaSiteId() {
 
 	$response = Unirest\Request::get($url,
 	  array(
-	    "X-Mashape-Key" => "S4X6YXGRxxmshLDxygnESvTmQ3kAp1DSsDDjsnx14NHnev0ocV",
+	    "X-Mashape-Key" => "KEY",
 	    "Accept" => "text/plain"
 	  )
 	);
@@ -34,7 +34,7 @@ function updateMangaList($siteId) {
 
 	$response = Unirest\Request::get($url,
 	  array(
-	    "X-Mashape-Key" => "S4X6YXGRxxmshLDxygnESvTmQ3kAp1DSsDDjsnx14NHnev0ocV",
+	    "X-Mashape-Key" => "KEY",
 	    "Accept" => "text/plain"
 	  )
 	);
@@ -73,7 +73,7 @@ function mangaSearch($siteId, $query) {
 
 	$response = Unirest\Request::get($url,
 	  array(
-	    "X-Mashape-Key" => "S4X6YXGRxxmshLDxygnESvTmQ3kAp1DSsDDjsnx14NHnev0ocV",
+	    "X-Mashape-Key" => "KEY",
 	    "Accept" => "text/plain"
 	  )
 	);
@@ -95,7 +95,7 @@ function mangaInfo($siteId, $mangaId){
 
 	$response = Unirest\Request::get($url,
 	  array(
-	    "X-Mashape-Key" => "S4X6YXGRxxmshLDxygnESvTmQ3kAp1DSsDDjsnx14NHnev0ocV",
+	    "X-Mashape-Key" => "KEY",
 	    "Accept" => "text/plain"
 	  )
 	);
@@ -108,8 +108,6 @@ function mangaInfo($siteId, $mangaId){
 	foreach($responseBody->author as $author){
 
 		$manga['authors'][array_search($author, $responseBody->author)] = correctAuthor($author);
-		//echo $author;
-		//echo array_search($author, $responseBody->author);
 
 	}
 	foreach($responseBody->artist as $artist){
@@ -169,7 +167,7 @@ function getChapter($siteId, $mangaId, $chapterId) {
 	
 	$response = Unirest\Request::get($url,
 	  array(
-	    "X-Mashape-Key" => "S4X6YXGRxxmshLDxygnESvTmQ3kAp1DSsDDjsnx14NHnev0ocV",
+	    "X-Mashape-Key" => "KEY",
 	    "Accept" => "text/plain"
 	  )
 	);
