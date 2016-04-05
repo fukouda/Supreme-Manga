@@ -18,7 +18,7 @@ $url = "https://doodle-manga-scraper.p.mashape.com/mangareader.net/";
 
 	$response = Unirest\Request::get($url,
 	  array(
-	    "X-Mashape-Key" => "S4X6YXGRxxmshLDxygnESvTmQ3kAp1DSsDDjsnx14NHnev0ocV",
+	    "X-Mashape-Key" => "KEY",
 	    "Accept" => "text/plain"
 	  )
 	);
