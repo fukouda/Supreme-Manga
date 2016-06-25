@@ -1,6 +1,6 @@
 # Supreme Manga - Deprecated!
 
-__I haven't had the time to maintain this project lately since I've been going to school full-time and looking for work. The API has also been taken down, the code is still up to view; however it is now deprecated.__
+__I haven't had the time to maintain this project lately since I've been going to school full-time. The API has also been taken down, the code is still up to view; however it is now deprecated.__
 
 
 ![alt text](https://github.com/fukouda/Supreme-Manga/blob/master/v0.0.2/imgs/cover/1.png "Manga Cover")
